@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1506102383123-c8ef1e872756?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: center;
+        }
+
+        .option {
+            margin: 0 20px;
+        }
+
+        .option a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+            padding: 10px 20px;
+            background-color: #000;
+            border-radius: 5px;
+        }
+
+        .option a:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <div class="options">
+            <div class="option">
+                <a href="#">MENU</a>
+            </div>
+            <div class="option">
+                <a href="#">BRANCH</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
